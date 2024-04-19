@@ -1,0 +1,40 @@
+{
+    "key": "group_5e1dd47ad00df",
+    "title": "Resources Widget",
+    "fields": [
+        {
+            "key": "field_5e1dd47b0e571",
+            "label": "Read More",
+            "name": "read_more",
+            "type": "url",
+            "instructions": "Put a URL here, if this is an external resource.\r\nThis will change the \"Read More\" for the entry.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_category",
+                "operator": "==",
+                "value": "category:resources"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1579013330
+}

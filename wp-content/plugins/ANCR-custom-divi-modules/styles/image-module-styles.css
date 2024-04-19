@@ -1,0 +1,198 @@
+/*Defaults*/
+
+.ancr-image-container {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 88%;
+    padding-top: 28%
+}
+
+.ancr-large-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -40%;
+    width: 80%;
+    transform: translateY(-50%);
+    height: 85%;
+    background-color: #CCC;
+    z-index: 3
+}
+
+.upper-left {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18%;
+    background-color: transparent;
+    padding-top: 6%;
+    border-radius: 45px;
+}
+
+.upper-right {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18%;
+    background-color: transparent;
+    padding-top: 6%;
+    border-radius: 45px;
+}
+
+.lower-left {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 18%;
+    background-color: transparent;
+    border-radius: 45px;
+    padding-top: 6%
+}
+
+.lower-right {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 18%;
+    background-color: transparent;
+    border-radius: 45px;
+    padding-top: 6%
+}
+
+/*Responsive*/
+
+/* Small devices (landscape phones, less than 768px) */
+
+/* Written on individual lines for readability, this gets minified in build */
+@media only screen and (max-width: 767.98px) {
+    .upper-left_phone .upper-left{
+        display: block;
+    }
+
+    .upper-right_phone .upper-right{
+        display: block;
+    }
+
+    .lower-left_phone .lower-left{
+        display: block;
+    }
+
+    .lower-right_phone .lower-right{
+        display: block;
+    }
+
+    .upper-left_phone_off .upper-left{
+        display: none!important;
+    }
+
+    .upper-right_phone_off .upper-right{
+        display: none!important;
+    }
+
+    .lower-left_phone_off .lower-left{
+        display: none!important;
+    }
+
+    .lower-right_phone_off .lower-right{
+        display: none!important;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+/* Written on individual lines for readability, this gets minified in build */
+@media only screen and (min-width:767.99px) and (max-width: 991.98px)  {
+
+    .upper-left_tablet .upper-left{
+        display: block;
+    }
+
+    .upper-right_tablet .upper-right{
+        display: block;
+    }
+
+    .lower-left_tablet .lower-left{
+        display: block;
+    }
+
+    .lower-right_tablet .lower-right{
+        display: block;
+    }
+
+    .upper-left_tablet_off .upper-left{
+        display: none!important;
+    }
+
+    .upper-right_tablet_off .upper-right{
+        display: none!important;
+    }
+
+    .lower-left_tablet_off .lower-left{
+        display: none!important;
+    }
+
+    .lower-right_tablet_off .lower-right{
+        display: none!important;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+/* Written on individual lines for readability, this gets minified in build */
+@media only screen and (min-width: 991.99px) {
+
+    .upper-left, .lower-left {
+        border: 1vw solid #2cd5c4;
+    }
+
+    .upper-right, .lower-right {
+        border: 1vw solid #ea0029;
+    }
+
+    .upper-left_desktop .upper-left{
+        display: block;
+    }
+
+    .upper-right_desktop .upper-right{
+        display: block;
+    }
+
+    .lower-left_desktop .lower-left{
+        display: block;
+    }
+
+    .lower-right_desktop .lower-right{
+        display: block;
+    }
+
+    .upper-left_desktop_off .upper-left{
+        display: none!important;
+    }
+
+    .upper-right_desktop_off .upper-right{
+        display: none!important;
+    }
+
+    .lower-left_desktop_off .lower-left{
+        display: none!important;
+    }
+
+    .lower-right_desktop_off .lower-right{
+        display: none!important;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .upper-left, .lower-left {
+        border: 1.2vw solid #2cd5c4;
+    }
+
+    .upper-right, .lower-right {
+        border: 1.2vw solid #ea0029;
+    }
+}

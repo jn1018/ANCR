@@ -1,0 +1,40 @@
+{
+    "key": "group_5df7e5e17114d",
+    "title": "News Widget",
+    "fields": [
+        {
+            "key": "field_5df7e5f48580f",
+            "label": "Read More",
+            "name": "read_more",
+            "type": "url",
+            "instructions": "Put a URL here, if this is an external resource.\r\nThis will change the \"Read More\" for the entry.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_category",
+                "operator": "==",
+                "value": "category:news"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1576527425
+}

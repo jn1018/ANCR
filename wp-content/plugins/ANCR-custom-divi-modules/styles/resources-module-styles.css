@@ -1,0 +1,131 @@
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.ancr-image-container {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 28%
+}
+
+.ancr_custom_resources{
+    width: 92%;
+    padding-top: 1%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.ancr_custom_resources_with_image{
+    box-shadow: 0 6px 35px 0;
+}
+.ancr_custom_resources_description{
+    background-color:#003da6;
+    border-radius: 16px 0 0 16px;
+    padding: 20px 20px 0 20px;
+}
+
+.ancr_custom_resources_image{
+    border-radius: 0 16px 16px 0;
+    background-color:#003da6;
+}
+.ancr_custom_resources_image img{
+    border-radius: 0 16px 16px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ancr_custom_resources_description .et_pb_button.et_pb_more_button, .ancr_custom_resources_description .et_pb_button.et_pb_more_button:hover{
+    background-color: transparent!important;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2cd5c4;
+}
+
+.resource-meta{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resource_date{
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+
+.read-more{
+    text-align:left;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #2cd5c4;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+/* Written on individual lines for readability, this gets minified in build */
+@media only screen and (max-width: 767.98px) {
+    .ancr_custom_resources_image.mobile_off{
+        display:none;
+    }
+    .ancr_custom_resources_image.mobile_on{
+        display:block;
+    }
+    .ancr_custom_resources_image.mobile_on, .ancr_custom_resources_image.mobile_on img {
+        border-radius: 16px 16px 0 0;
+    }
+    .ancr_custom_resources_description {
+        border-radius: 0 0 16px 16px;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+/* Written on individual lines for readability, this gets minified in build */
+@media only screen and (min-width:767.99px) and (max-width: 991.98px)  {
+
+    .ancr_custom_resources_image.mobile_off{
+        display:none;
+
+    }
+    .ancr_custom_resources_image.mobile_on{
+        display:block;
+    }
+    .ancr_custom_resources_image.mobile_on, .ancr_custom_resources_image.mobile_on img {
+        border-radius: 16px 16px 0 0;
+    }
+    .ancr_custom_resources_description {
+        border-radius: 0 0 16px 16px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+/* Written on individual lines for readability, this gets minified in build */
+@media only screen and (min-width: 991.99px) {
+
+    .ancr_custom_resources_image.mobile_off{
+        display:block;
+    }
+    .ancr_custom_resources_image.mobile_on{
+        display:none;
+    }
+}
